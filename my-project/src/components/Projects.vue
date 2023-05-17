@@ -19,7 +19,7 @@
               {{ item.text }}
               <button class="ml-2 text-red-500" @click="deleteItem(index)">Delete</button>
               <button class="ml-2 text-blue-500" @click="toggleComplete(index)">
-                {{ item.completed ? 'Mark Incomplete' : 'Mark Complete' }}
+                {{ item.completed ? 'Mark  Incomplete' : 'Mark Complete' }}
               </button>
             </li>
           </ul>
